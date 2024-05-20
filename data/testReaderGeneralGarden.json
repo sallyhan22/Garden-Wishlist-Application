@@ -1,0 +1,16 @@
+{
+  "name": "sally",
+  "plants": [
+    {
+      "name": "Tomato [0]",
+      "type": "FRUIT",
+      "info": "Tomatoes require plenty of direct sunlight (at least 6-8 hours) daily."
+    },
+    {
+      "name": "Parsley [1]",
+      "type": "HERB",
+      "info": "Parsley can grow well in full-sun or part-sun environments, but direct sunlight will optimize growth."
+    },
+  ]
+
+}

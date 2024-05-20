@@ -1,0 +1,8 @@
+{
+    "plants": [{
+        "name": "Tomato",
+        "type": "FRUIT",
+        "info": "tomato stuff"
+    }],
+    "name": "My Garden"
+}

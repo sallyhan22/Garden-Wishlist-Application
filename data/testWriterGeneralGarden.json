@@ -1,0 +1,15 @@
+{
+    "plants": [
+        {
+            "name": "tomato",
+            "type": "FRUIT",
+            "info": "tomatoInfo"
+        },
+        {
+            "name": "garlic",
+            "type": "VEGETABLE",
+            "info": "garlicInfo"
+        }
+    ],
+    "name": "sally"
+}
