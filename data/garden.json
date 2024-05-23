@@ -1,8 +1,15 @@
 {
-    "plants": [{
-        "name": "Tomato",
-        "type": "FRUIT",
-        "info": "tomato stuff"
-    }],
+    "plants": [
+        {
+            "name": "Tomato",
+            "type": "FRUIT",
+            "info": "tomato stuff"
+        },
+        {
+            "name": "Lemon",
+            "type": "FRUIT",
+            "info": "lemon stuff"
+        }
+    ],
     "name": "My Garden"
 }
