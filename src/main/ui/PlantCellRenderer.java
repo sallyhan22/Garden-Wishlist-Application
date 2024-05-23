@@ -27,13 +27,9 @@ public class PlantCellRenderer extends JLabel implements ListCellRenderer<Plant>
         String name = value.getName();
         String info = value.getInfo();
         ImageIcon img = new ImageIcon("./data/" + name + ".jpeg");
-        Image image = img.getImage();
-        Image imgScale = image.getScaledInstance(100,100, 100);
-        ImageIcon scaledIcon = new ImageIcon(imgScale);
 
-        this.setIcon(scaledIcon);
+        this.setIcon(img);
         this.setText(name + " (" + value.getType().toString() + ") \n       " + info);
-
 
         if (isSelected) {
             setBackground(list.getSelectionBackground());

@@ -134,13 +134,16 @@ public class GardenUI extends JFrame {
 
     // MODIFIES: this
     // EFFECTS: sets up the frame with available plants to add
+
     public JFrame addPlantsFrame() {
+
         addPlantsFrame = new JFrame();
         addPlantsFrame.setSize(dimensions.width, dimensions.height);
         addPlantsFrame.setLocationRelativeTo(null);
         addPlantsFrame.setVisible(true);
         addPlantsFrame.add(makeTopPanel(), BorderLayout.NORTH);
         addPlantsFrame.add(makePlantPanel(), BorderLayout.CENTER);
+
         return addPlantsFrame;
     }
 
@@ -163,6 +166,7 @@ public class GardenUI extends JFrame {
         plantList = new JList<>(model);
         plantList.setCellRenderer(new PlantCellRenderer());
         plantsPanel.add(plantList);
+
 
         return plantsPanel;
     }
